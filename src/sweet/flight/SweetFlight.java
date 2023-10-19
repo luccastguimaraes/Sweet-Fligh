@@ -23,7 +23,6 @@ public class SweetFlight {
         int codigo = -1;
         boolean test = false;
         int posicao = -1;
-        int k = 0;
         int opcao = 0;
         
         
@@ -35,8 +34,8 @@ public class SweetFlight {
         
         do {
             System.out.println("Menu");
-            System.out.println("Opção 1: Registrar o número de cada avião;");
-            System.out.println("Opção 2: Registrar o quantitativo de assentos disponíveis em cada avião;");
+            System.out.println("Opção 1: Listar o número de cada avião;");
+            System.out.println("Opção 2: Listar o quantitativo de assentos disponíveis em cada avião;");
             System.out.println("Opção 3: Reservar passagem aérea;");
             System.out.println("Opção 4: Realizar consulta por avião;");
             System.out.println("Opção 5: Realizar consulta por passageiro;");
