@@ -79,7 +79,7 @@ public class SweetFlight {
                     reservas.add(r);
                     assentos.get(posicao).setQuantAssento(assentos.get(posicao).getQuantAssento() - 1);
                     System.out.println("Reserva realizada com Sucesso!");
-                    k = k + 1;
+                    
                     
                     }   
                 }
